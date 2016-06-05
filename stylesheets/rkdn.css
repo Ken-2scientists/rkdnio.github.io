@@ -6,3 +6,11 @@
     background-repeat: no-repeat;
     position: relative;
 }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
