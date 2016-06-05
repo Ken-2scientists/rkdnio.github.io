@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapse-navbar">
@@ -42,11 +42,13 @@
     </nav>
     <div class="jumbotron">
       <div class="container">
-        <h1 class="text-center">Tech for the greater good</h1>
-        <p class="text-center">We help purpose-driven organizations adopt modern digital tools and practices to broaden their impact.</p>
+        <div class="shader">
+          <h1 class="text-center">Tech for the greater good</h1>
+          <p class="text-center">We help purpose-driven organizations adopt modern digital tools and practices to broaden their impact.</p>
 
-        <p class="text-center">Contact us to schedule a free consultation.</p>
-        <p class="text-center"><a class="btn btn-info btn-lg" href="mailto:hello@rkdn.io?subject=Inquiry from website" role="button">Let's talk.</a></p>
+          <p class="text-center">Contact us to schedule a free consultation.</p>
+          <p class="text-center"><a class="btn btn-info btn-lg" href="mailto:hello@rkdn.io?subject=Inquiry from website" role="button">Let's talk.</a></p>
+        </div>
       </div>
     </div>
 
@@ -54,22 +56,36 @@
     <div class="container">
       <div class="page-header">
         <a name="services"></a>
-        <h1>Services</h1>
+        <h1 class="text-info">Services</h1>
+        <dl>
+          <dt>Infrastructure Assessment</dt>
+          <dd>This is where we say a lot about this</dd>
+          <dt>Application Development</dt>
+          <dd>And I add some copy here</dd>
+        </dl>
       </div>
 
       <div class="page-header">
         <a name="about"></a>
-        <h1>About</h1>
+        <h1 class="text-info">About</h1>
+        <p>We were founded with the goal to harness
       </div>
 
       <div class="page-header">
         <a name="careers"></a>
-        <h1>Careers</h1>
+        <h1 class="text-info">Careers</h1>
+        <p>We are in startup mode right now, so we're not looking for any one
+          particular role. If you have an entrepreneurial itch and are looking
+          to make a difference with some organizations that matter, drop us a
+          line at <a href="mailto:careers@rkdn.io">careers@rkdn.io</a>.
+        </p>
       </div>
     </div>
 
     <footer>
-      &copy; 2016 by RKDN Digital LLC. Proudly made in Alexandria, VA.
+      <div class="container">
+        &copy; 2016 by RKDN Digital LLC. Proudly made in Alexandria, VA.
+      </div>
     </footer>
 
     <!-- jQuery first, then Bootstrap JS. -->
