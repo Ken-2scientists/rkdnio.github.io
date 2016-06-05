@@ -34,3 +34,7 @@ h1.text-info {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+dt {
+  margin-top: 1em;
+}
